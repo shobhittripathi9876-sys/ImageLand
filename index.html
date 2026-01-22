@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UltraShutterstock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">UltraShutterstock</div>
+    <nav>
+      <ul>
+        <li><a href="#">Images</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Collections</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 id="typed-text">Find stunning images for your projects</h1>
+    <input type="text" id="searchInput" placeholder="Search images...">
+  </section>
+
+  <section class="featured">
+    <h2>Featured Collections</h2>
+    <div class="carousel" id="carousel">
+      <img src="images/img1.jpg" alt="">
+      <img src="images/img2.jpg" alt="">
+      <img src="images/img3.jpg" alt="">
+      <img src="images/img4.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <!-- Images loaded dynamically -->
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <button class="nav prev">&#10094;</button>
+    <img class="lightbox-img" src="" alt="">
+    <button class="nav next">&#10095;</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 UltraShutterstock. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
